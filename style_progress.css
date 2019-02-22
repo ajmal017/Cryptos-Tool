@@ -1,0 +1,42 @@
+/*iframe*/
+#upload_frame {
+	border:0px;
+	height:40px;
+	width:200px;
+	display:none;
+}
+
+#progress_container {
+	width: 150px; 
+	height: 10px; 
+	border: 1px solid #CCCCCC; 
+	background-color:#EBEBEB;
+	display: block; 
+	margin:5px 0px -15px 0px;
+}
+
+#progress_bar {
+	position: relative; 
+	height: 10px; 
+			background-image: -moz-linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
+		background-image: -webkit-linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
+		background-image: -o-linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
+		background-image: -ms-linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
+		background-image: linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
+box-shadow: inset 0px 0px 0px 0px #135c86, inset 0px 2px 20px 0px rgba(255,255,255,0.5);
+		-moz-transition: background-color .2s ease-in-out;
+		-webkit-transition: background-color .2s ease-in-out;
+		-o-transition: background-color .2s ease-in-out;
+		-ms-transition: background-color .2s ease-in-out;
+		transition: background-color .2s ease-in-out;
+	width: 0%; 
+	z-index:10; 
+}
+
+#progress_completed {
+	font-size:12px; 
+	z-index:40; 
+	line-height:10px; 
+	padding-left:4px; 
+	color:#000;
+}

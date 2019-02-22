@@ -1,0 +1,4 @@
+(fonction code dans espace ligne 9 en confli avec fonction code dans fonctions.phhp ligne 658)
+Remplacé par fonction smile --> en attente de situer ou cette fonction est utilisée.
+
+Mise en commentaire du eregi_replace ligne 712 du fichier fonctions.php (non compatible php 7)
